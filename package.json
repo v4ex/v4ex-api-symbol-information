@@ -1,0 +1,29 @@
+{
+  "name": "v4ex-api-symbol-information",
+  "version": "1.0.x",
+  "description": "V4EX API System: Symbol information microservice.",
+  "repository": "https://github.com/v4ex/v4ex-api-symbol-information",
+  "license": "GPL-3.0",
+  "author": "V4EX Inc. <v4ex-api-symbol-information@v4ex.com> (https://v4ex.com/)",
+  "contributors": [
+    "Xuwei Li <v4ex-api-symbol-information@xuwei.li> (https://xuwei.li/)"
+  ],
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "jest",
+    "test:detect": "jest --detectOpenHandles",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.3",
+    "mongoose-type-url": "^2.1.0",
+    "v4ex-api-symbol": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "nodemon": "^2.0.12"
+  }
+}
